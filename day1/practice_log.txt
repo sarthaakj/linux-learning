@@ -1,0 +1,2 @@
+LINUX DAY 1
+Today I learned Linux directory navigation.

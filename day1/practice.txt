@@ -1,0 +1,14 @@
+LINUX DAY 1
+Today I learned Linux directory navigation.
+# Linux Learning
+
+This repository contains my Linux practice.
+
+## Day 1
+- pwd
+- ls
+- cd
+- mkdir
+- touch
+- nano
+- cat
