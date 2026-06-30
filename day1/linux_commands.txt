@@ -1,0 +1,143 @@
+# Linux Day 1 - Basic Commands
+
+## 1. pwd
+Print the current working directory.
+
+Example:
+```bash
+pwd
+```
+
+---
+
+## 2. ls
+List files and directories.
+
+```bash
+ls
+```
+
+---
+
+## 3. ls -la
+List all files, including hidden files, with detailed information.
+
+```bash
+ls -la
+```
+
+---
+
+## 4. cd
+Change directory.
+
+```bash
+cd folder_name
+```
+
+Go back one directory:
+
+```bash
+cd ..
+```
+
+Go to home directory:
+
+```bash
+cd ~
+```
+
+---
+
+## 5. mkdir
+Create a new directory.
+
+```bash
+mkdir linux-learning
+```
+
+---
+
+## 6. touch
+Create a new empty file.
+
+```bash
+touch notes.txt
+```
+
+---
+
+## 7. nano
+Open and edit a file in the Nano text editor.
+
+```bash
+nano notes.txt
+```
+
+Save:
+- Ctrl + O
+- Enter
+
+Exit:
+- Ctrl + X
+
+---
+
+## 8. cat
+Display the contents of a file.
+
+```bash
+cat notes.txt
+```
+
+---
+
+## 9. cp
+Copy files.
+
+```bash
+cp notes.txt backup.txt
+```
+
+---
+
+## 10. mv
+Move or rename files.
+
+Rename:
+
+```bash
+mv backup.txt notes_backup.txt
+```
+
+Move:
+
+```bash
+mv notes.txt folder/
+```
+
+---
+
+## 11. rm
+Delete a file.
+
+```bash
+rm notes_backup.txt
+```
+
+Delete a directory recursively.
+
+```bash
+rm -r folder_name
+```
+
+---
+
+## 12. man
+Open the manual page for a command.
+
+```bash
+man ls
+```
+
+Press `q` to exit.
