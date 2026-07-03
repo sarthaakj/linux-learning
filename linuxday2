@@ -1,0 +1,307 @@
+# 🐧 Linux Basics - Day 2
+
+Today I started learning Linux using Ubuntu (WSL). This repository contains the basic Linux commands I learned and practiced.
+
+---
+
+## 📂 1. `pwd` – Print Working Directory
+
+Displays the current working directory.
+
+```bash
+pwd
+```
+
+**Example Output**
+
+```text
+/home/sarthak
+```
+
+---
+
+## 📂 2. `ls` – List Files and Directories
+
+Lists files and folders in the current directory.
+
+```bash
+ls
+```
+
+---
+
+## 📂 3. `ls -l` – Long Listing
+
+Shows detailed information about files and folders.
+
+```bash
+ls -l
+```
+
+Displays:
+
+- File permissions
+- Number of links
+- Owner
+- Group
+- File size
+- Last modified date
+- File name
+
+---
+
+## 📂 4. `ls -la` – Show Hidden Files
+
+Displays all files, including hidden files.
+
+```bash
+ls -la
+```
+
+Hidden files begin with a `.` (dot), for example:
+
+```text
+.bashrc
+.git
+.profile
+```
+
+---
+
+## 🧹 5. `clear` – Clear Terminal
+
+Clears the terminal screen.
+
+```bash
+clear
+```
+
+**Shortcut**
+
+```text
+Ctrl + L
+```
+
+---
+
+## 📁 6. `cd` – Change Directory
+
+Moves into another directory.
+
+```bash
+cd Desktop
+```
+
+---
+
+## ⬅️ 7. `cd ..` – Move One Directory Back
+
+Moves to the parent directory.
+
+```bash
+cd ..
+```
+
+---
+
+## 🏠 8. `cd ~` – Home Directory
+
+Returns to the user's home directory.
+
+```bash
+cd ~
+```
+
+---
+
+## 🌍 9. `cd /` – Root Directory
+
+Moves to the root directory.
+
+```bash
+cd /
+```
+
+---
+
+## 📂 10. `mkdir` – Create Directory
+
+Creates a new folder.
+
+```bash
+mkdir Projects
+```
+
+---
+
+## 📄 11. `touch` – Create File
+
+Creates an empty file.
+
+```bash
+touch hello.txt
+```
+
+---
+
+## 📖 12. `cat` – Display File Content
+
+Displays the contents of a file.
+
+```bash
+cat hello.txt
+```
+
+---
+
+## ✍️ 13. `echo` – Write to a File
+
+Writes text into a file.
+
+```bash
+echo "Hello Linux" > hello.txt
+```
+
+Read the file:
+
+```bash
+cat hello.txt
+```
+
+---
+
+## ❌ 14. `rm` – Remove File
+
+Deletes a file.
+
+```bash
+rm hello.txt
+```
+
+---
+
+## 🗑️ 15. `rmdir` – Remove Empty Directory
+
+Deletes an empty folder.
+
+```bash
+rmdir Projects
+```
+
+---
+
+## 📋 16. `cp` – Copy Files
+
+Copies a file.
+
+```bash
+cp file1.txt file2.txt
+```
+
+---
+
+## 🚚 17. `mv` – Move or Rename Files
+
+Rename a file:
+
+```bash
+mv old.txt new.txt
+```
+
+Move a file:
+
+```bash
+mv file.txt Documents/
+```
+
+---
+
+## 📜 18. `history` – Command History
+
+Shows previously executed commands.
+
+```bash
+history
+```
+
+---
+
+## 👤 19. `whoami` – Current User
+
+Displays the current logged-in user.
+
+```bash
+whoami
+```
+
+Example:
+
+```text
+sarthak
+```
+
+---
+
+## 📚 20. `man` – Manual Pages
+
+Displays the manual for a command.
+
+```bash
+man ls
+```
+
+Exit the manual:
+
+```text
+q
+```
+
+---
+
+## 🚪 21. `exit` – Exit Terminal
+
+Closes the terminal session.
+
+```bash
+exit
+```
+
+---
+
+# 📌 Commands Learned
+
+- pwd
+- ls
+- ls -l
+- ls -la
+- clear
+- cd
+- cd ..
+- cd ~
+- cd /
+- mkdir
+- touch
+- cat
+- echo
+- rm
+- rmdir
+- cp
+- mv
+- history
+- whoami
+- man
+- exit
+
+---
+
+# 🎯 What I Learned
+
+- Linux directory navigation
+- Creating files and folders
+- Viewing hidden files
+- Reading file contents
+- Copying, moving and deleting files
+- Checking command history
+- Using terminal commands efficiently
+
+---
